@@ -1,0 +1,227 @@
+.j-c-c {
+    justify-content: center !important;
+}
+.j-c-b{
+    justify-content: space-between !important;
+}
+.al-i-s{
+    align-items: flex-start !important;
+}
+.al-i-c{
+    align-items: center !important;
+}
+.al-i-e{
+    align-items: flex-end !important;
+}
+.td-n{
+    text-decoration: none !important;
+}
+ul{
+    padding: 0px;
+    list-style-type: none;
+}
+
+/* ########################################### */
+
+.firstSection{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+    
+}
+.ma{
+    position:absolute;
+    top:50%;
+    translate: 0% -50%;
+    width: 100%;
+}
+
+form input{
+    outline: none;
+}
+
+.nob-nol{
+    border:none ;
+    outline: none;
+}
+
+.bg-non{
+    background: transparent !important;
+    border: none !important;
+}
+
+.h-f-c{
+    height: fit-content;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#pay{
+    cursor: pointer;
+}
+
+#cancel_payment{
+    cursor: pointer;
+}
+
+.cc{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 445.200px;
+}
+
+.cc::-webkit-scrollbar {
+    /* display: none; إخفاء شريط التمرير بشكل تام */
+  }
+
+.cc::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.cc::-webkit-scrollbar-track {
+    background-color:transparent; /* تعيين لون الخلفية لشريط التمرير */
+  }
+  
+  .cc::-webkit-scrollbar-thumb {
+    background-color: transparent; /* تعيين لون قبضة شريط التمرير */
+  }
+
+
+#try11{
+    height: 445.200px;
+}
+
+
+
+.member-name{
+overflow: hidden;
+}
+
+
+.add-icon {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin-left: auto;
+    margin-right: 30px;
+    cursor: pointer;
+
+ }
+ .add-icon::after,
+ .add-icon::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    /* border-radius: 5px; */
+    top: 10px;
+    left: 4px
+ }
+ .add-icon::after {
+    width: 2px;
+    height: 10px;
+    top: 6px;
+    left: 8px
+ }
+
+
+
+
+ .check-mark {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid green; */
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: 35px;
+  }
+  
+  .check-mark::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(305deg);
+    width: 8px;
+    height: 12px;
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+    border-right: none;
+  }
+  /* .check-mark::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 2px;
+    background-color: green;
+  } */
+ 
+  .height-second-section{
+    height: 1558.4px;
+  }
+
+  .freind-requests-for-u{
+    
+  }
+  
+  
+  .f-r{
+    float: right;
+  }
+
+ hr{
+    margin-left: auto;
+    margin-right: auto;
+ }
+  
+  
+  #accepte-the-request{
+    cursor: pointer;
+  }
+
+  #refuse-the-request{
+    cursor: pointer;
+  }
+
+  .postplace{
+    height: 100px;
+    resize: none;
+
+  }
+
+  .postplace::-webkit-resizer {
+    resize: none;
+  }
+
+   #publishPost{
+    margin-right: auto;
+    /* justify-self: flex-start; */
+    /* height: 200px;     */
+  } 
+
+  .post_date{
+    font-size: 8px;
+    width: fit-content;
+    font-weight: bold;
+  }
+
+  .post_publisher{
+    font-size: 20px;
+
+  }
+
+  .post_text{
+    font-size: 20px;
+  }
